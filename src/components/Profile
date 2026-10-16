@@ -1,0 +1,15 @@
+import React from 'react';
+
+export default function Profile() {
+  return (
+    <section className="profile-container">
+      <img 
+        src="https://github.com/moniquonicole-mosende20.png" 
+        alt="Profile Avatar" 
+        className="profile-avatar"
+      />
+      <h1 className="profile-name">Moniquo Nicole C. Mosende</h1>
+      <p className="profile-username">@moniquonicole-mosende20</p>
+    </section>
+  );
+}
